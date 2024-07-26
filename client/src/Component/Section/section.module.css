@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.descriptionContainer,
+.ratingContainer {
+  padding-top: 118px;
+}
+
+.heroImage {
+  padding-top: 86px;
+}
+
+.descriptionContainer {
+  width: 457px;
+}
+
+.descriptionContainer > h1 {
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 62.5px;
+  text-align: left;
+}
+
+.descriptionContainer > p {
+  margin-top: 18px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+
+.descriptionContainer > button {
+  all: unset;
+  background: #da722c;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.descriptionContainer > button > img {
+  width: 18px;
+  height: 18px;
+}
+
+/* section 3 */
+
+.ratingContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 105px;
+  border-radius: 24px;
+}
+
+.studentEnrolledContainer,
+.overallRatingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 206px;
+  height: 90px;
+  background: #fff;
+  color: #023047;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  border-radius: 24px;
+  position: relative;
+  /* box-shadow: 7px 7px 0px 0px
+    linear-gradient(to top, rgba(111, 125, 251, 1) rgba(59, 68, 143, 1)); */
+
+  box-shadow: 3px 7px 0 0 rgba(59, 68, 143, 0.5),
+    4px 6px 0 0 rgba(71, 82, 169, 0.5), 5px 5px 0 0 rgba(84, 96, 196, 0.5),
+    6px 4px 0 0 rgba(97, 110, 223, 0.5), 7px 3px 0 0 rgba(111, 125, 251, 0.5);
+}
+
+.overallRatingContainer {
+  width: 188px;
+}
+
+.studentEnrolledContainer > p,
+.overallRatingContainer > p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.overallRatingContainer {
+  position: relative;
+  margin-top: 141px;
+  right: 59px;
+}
+
+/* section */
+
+.heroImage > img {
+  width: 446px;
+  height: 582px;
+}

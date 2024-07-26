@@ -1,0 +1,88 @@
+.container {
+  background: #070917;
+  color: #fff;
+  height: 409px;
+}
+
+.listContainer {
+  padding: 70px 116px 0px 116px;
+  display: flex;
+  gap: 132px;
+}
+
+.listContainer > ul {
+  width: 179px;
+  height: 205px;
+}
+
+.listContainer > ul > li,
+.listContainer > ul > lh,
+.applist {
+  list-style: none;
+}
+.listContainer > ul > lh {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #da722c;
+  padding-top: 4px;
+}
+
+.listContainer > ul > li,
+.applist > li {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  padding-left: 23px;
+  padding-top: 9px;
+}
+
+.applist {
+  display: flex;
+}
+
+.inputContainer {
+  width: 521px;
+  height: 39px;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputContainer > input {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  padding-left: 27px;
+}
+
+.inputContainer > button {
+  all: unset;
+  text-align: center;
+  margin-right: 6px;
+  width: 135px;
+  height: 30px;
+  background: #023047;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.info {
+  padding: 32px 116px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}

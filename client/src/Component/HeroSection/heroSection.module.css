@@ -1,0 +1,13 @@
+.container {
+  color: #fff;
+  padding: 0px 116px;
+  height: 768px;
+  background: linear-gradient(
+    to top,
+    #26308c,
+    #3942a7,
+    #4b55c2,
+    #5d69de,
+    #6f7dfb
+  );
+}

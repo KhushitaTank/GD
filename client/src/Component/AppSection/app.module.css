@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #023047;
+  height: 462px;
+  gap: 13px;
+}
+
+.container > h1 {
+  font-family: Raleway;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 72px;
+  text-align: center;
+}
+
+.container > p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+}
+
+.AppButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 45px;
+}
+
+.AppButtonContainer > button {
+  all: unset;
+  background: black;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  width: 310px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 31px 20px 31px;
+}

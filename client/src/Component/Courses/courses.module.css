@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(
+    to top,
+    #26308c,
+    #3942a7,
+    #4b55c2,
+    #5d69de,
+    #6f7dfb
+  );
+  height: 785px;
+  gap: 56px;
+  color: #fff;
+}
+
+.container > h1 {
+  font-family: Raleway;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 72px;
+  text-align: center;
+}
+
+.container > button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 59px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  padding: 16px 32px 16px 32px;
+  background: #da722c;
+  border-radius: 24px;
+}
+
+.coursesDetail {
+  display: flex;
+  gap: 73px;
+}
