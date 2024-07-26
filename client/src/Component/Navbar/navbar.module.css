@@ -22,7 +22,7 @@
   font-weight: 700;
   line-height: 24px;
 }
-.linksContainer > a {
+.linksContainer > button {
   all: unset;
   width: Hug (155px) px;
   height: Hug (59px) px;
@@ -34,6 +34,6 @@
   opacity: 0px;
 }
 
-.linksContainer > a:hover {
+.linksContainer > button:hover {
   background-color: #023047;
 }

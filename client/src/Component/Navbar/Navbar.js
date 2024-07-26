@@ -6,10 +6,10 @@ function Navbar() {
     <div className={css.container}>
       <h1>GD.</h1>
       <nav className={css.linksContainer}>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Our Work</a>
-        <a href="#">Enroll Now</a>
+        <button>About</button>
+        <button>Services</button>
+        <button>Our Work</button>
+        <button>Enroll Now</button>
       </nav>
     </div>
   );
