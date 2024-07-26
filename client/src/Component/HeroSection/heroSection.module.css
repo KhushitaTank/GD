@@ -11,3 +11,24 @@
     #6f7dfb
   );
 }
+
+@media screen and (max-width: 845px) {
+  .container {
+    padding: 0px 60px;
+    height: 1194px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container {
+    height: 896px;
+  }
+}
+
+/* @media screen and (max-width: 840px) {
+  .container {
+  }
+}
+@media screen and (max-width: 420px) {
+  .container {
+  }
+} */

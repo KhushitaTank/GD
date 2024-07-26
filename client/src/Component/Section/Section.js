@@ -19,23 +19,25 @@ function Section() {
           Enroll Now
         </button>
       </section>
-      <section className={css.ratingContainer}>
-        <div className={css.studentEnrolledContainer}>
-          <h1>32K</h1>
-          <p>Students Enrolled</p>
-        </div>
+      <div className={css.ratingImageContainer}>
+        <section className={css.ratingContainer}>
+          <div className={css.studentEnrolledContainer}>
+            <h1>32K</h1>
+            <p>Students Enrolled</p>
+          </div>
 
-        <div className={css.overallRatingContainer}>
-          <h1>
-            4.7
-            <img src={starSvg} alt="Star emoji" />
-          </h1>
-          <p>Overall Rating</p>
-        </div>
-      </section>
-      <section className={css.heroImage}>
-        <img src={heroPng} alt="student Image" />
-      </section>
+          <div className={css.overallRatingContainer}>
+            <h1>
+              4.7
+              <img src={starSvg} alt="Star emoji" />
+            </h1>
+            <p>Overall Rating</p>
+          </div>
+        </section>
+        <section className={css.heroImage}>
+          <img src={heroPng} alt="student Image" />
+        </section>
+      </div>
     </div>
   );
 }

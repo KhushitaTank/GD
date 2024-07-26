@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 100px 116px;
+  position: relative;
 }
 
 .personDetails {
@@ -60,7 +61,7 @@
   text-align: left;
 }
 
-.infoDetailsContainer > button {
+.container > button {
   all: unset;
   background: #da722c;
   color: #fff;
@@ -77,8 +78,65 @@
   line-height: 27px;
   text-align: left;
   margin-top: 48px;
+  position: absolute;
+  bottom: 166px;
+  right: 444px;
 }
 
 .infoParagraphs {
   margin-top: 16px;
+}
+.tabletpersonDetails {
+  display: none;
+}
+.desktopMobileView {
+  display: block;
+}
+
+@media screen and (max-width: 840px) {
+  .container {
+    padding: 100px;
+    flex-direction: column-reverse;
+    gap: 70px;
+  }
+  .personDetails {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 474px;
+    height: 630px;
+  }
+  .infoDetailsContainer {
+    height: 200px;
+  }
+  .container > button {
+    width: 155px;
+    height: 48px;
+    padding: 12px 32px 12px 32px;
+    right: 180px;
+    bottom: 100px;
+  }
+  .infoDetailsContainer > h1 {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+  }
+  .Testimonials1,
+  .Testimonials2 {
+    width: 600px;
+  }
+  .tabletpersonDetails {
+    display: block;
+  }
+  .desktopMobileView {
+    display: none;
+  }
+  .Testimonials2 {
+    left: 0;
+    height: 222px;
+  }
+}
+@media screen and (max-width: 420px) {
 }
