@@ -142,5 +142,84 @@
     padding-top: 40px;
   }
 }
+
 @media screen and (max-width: 420px) {
+  .descriptionContainer > h1 {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 45px;
+  }
+  .descriptionContainer {
+    padding: 53px 0px 0px 0px;
+    width: 350px;
+  }
+  .descriptionContainer > button {
+    padding: 12px 32px 12px 32px;
+    gap: 10px;
+    border-radius: 24px;
+    width: 171px;
+    height: 48px;
+  }
+  .ratingImageContainer {
+    width: 192px;
+    border-radius: 24px;
+  }
+  .studentEnrolledContainer > h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.5px;
+  }
+  .studentEnrolledContainer > p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+  }
+  .studentEnrolledContainer {
+    width: 182px;
+    height: 75px;
+  }
+  .overallRatingContainer {
+    width: 160px;
+    height: 75px;
+    margin-top: 48px;
+  }
+  .overallRatingContainer > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .overallRatingContainer > h1 > img {
+    width: 35px;
+    height: 35px;
+    top: 761px;
+    left: 124px;
+    padding: 1.64px 1.09px 1.64px 1.09px;
+  }
+  .overallRatingContainer > p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+  }
+  .ratingContainer {
+    margin-top: 126px;
+    position: relative;
+  }
+  .heroImage {
+    position: absolute;
+    top: 648px;
+    left: 196px;
+  }
+  .heroImage > img {
+    width: 207px;
+    height: 270px;
+  }
 }

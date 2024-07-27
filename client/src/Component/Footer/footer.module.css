@@ -99,4 +99,45 @@
     flex-direction: column;
     border-radius: 8px;
   }
+  .listContainer {
+    padding: 60px 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .listContainer > ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .listContainer > ul > lh,
+  .listContainer > ul > li,
+  .applist > li {
+    padding: 0px;
+  }
+  .applist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px;
+  }
+  .inputContainer {
+    width: 358px;
+    height: 32px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .info {
+    padding: 0px;
+    padding-bottom: 70px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+  }
 }

@@ -41,11 +41,13 @@
 }
 
 @media screen and (max-width: 840px) {
-  .linksContainer {
+  .linksContainer,
+  .visibleLinkContainer {
     gap: 12px;
   }
 
-  .linksContainer > button {
+  .linksContainer > button,
+  .visibleLinkContainer > button {
     height: 24px;
     padding: 12px 20px 12px 20px;
   }
@@ -53,6 +55,12 @@
 @media screen and (max-width: 420px) {
   .container {
     position: relative;
+  }
+  .container > h1 {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42.26px;
   }
   .visibleLinkContainer {
     display: none;
@@ -72,5 +80,8 @@
   .burgerButton {
     all: unset;
     display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 13.33px 6.67px 13.33px 6.67px;
   }
 }

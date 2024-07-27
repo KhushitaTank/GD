@@ -79,4 +79,21 @@
 }
 
 @media screen and (max-width: 420px) {
+  .container > h1 {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: center;
+  }
+  .coursesDetail,
+  .coursesDetail > img {
+    width: 360px;
+  }
+  .coursesDetail {
+    gap: 60px;
+  }
+  .container > button {
+    left: 68px;
+  }
 }
