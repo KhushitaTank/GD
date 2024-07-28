@@ -101,7 +101,12 @@
     color: white;
     border: none;
     outline: none;
-    width: 121px;
+    width: 164px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    transition: background-color 0.3s;
   }
   .linksContainer > .closebutton {
     font-family: Raleway;
@@ -111,5 +116,8 @@
     position: relative;
     top: -20px;
     right: -100px;
+  }
+  .linksContainer > .hover:hover {
+    background-color: #da722c;
   }
 }

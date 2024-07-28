@@ -5,9 +5,21 @@ import Modal from "../Modal/Modal";
 
 function Navbar() {
   const [show, setShow] = useState(false);
+  const [isTouched, setIsTouched] = useState(false);
+
   useEffect(() => {
-    console.log(show);
-  }, [show]);
+    const handleTouchStart = () => setIsTouched(true);
+    const handleTouchEnd = () => setIsTouched(false);
+
+    document.addEventListener("touchstart", handleTouchStart);
+    document.addEventListener("touchend", handleTouchEnd);
+
+    return () => {
+      document.removeEventListener("touchstart", handleTouchStart);
+      document.removeEventListener("touchend", handleTouchEnd);
+    };
+  }, []);
+
   return (
     <div className={css.container}>
       <h1>GD.</h1>
@@ -29,24 +41,28 @@ function Navbar() {
           </button>
           <nav>
             <button
+              className={isTouched ? css.hover : ""}
               onClick={() => {
                 setShow(false);
               }}>
               About
             </button>
             <button
+              className={isTouched ? css.hover : ""}
               onClick={() => {
                 setShow(false);
               }}>
               Services
             </button>
             <button
+              className={isTouched ? css.hover : ""}
               onClick={() => {
                 setShow(false);
               }}>
               Our Work
             </button>
             <button
+              className={isTouched ? css.hover : ""}
               onClick={() => {
                 setShow(false);
               }}>
@@ -67,20 +83,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-// className={css.linksContainer
-{
-  /* <Modal show={show} setShow={setShow} className={css.modalOverride}>
-<div className={css.deletePopupWrapper}>
-  <h2 className={css.title}>Are you sure you want to Delete?</h2>
-  <div className={css.buttonWrapper}>
-    <button className={css.warningButton} onClick={() => deleteTask()}>
-      Yes, Delete
-    </button>
-    <button className={css.cancleButton} onClick={() => setShow(false)}>
-      Cancel
-    </button>
-  </div>
-</div>
-</Modal> */
-}
