@@ -5,7 +5,6 @@ import Modal from "../Modal/Modal";
 
 function Navbar() {
   const [show, setShow] = useState(false);
-  const [isTouched, setIsTouched] = useState(false);
 
   return (
     <div className={css.container}>
@@ -28,28 +27,28 @@ function Navbar() {
           </button>
           <nav>
             <button
-              className={isTouched ? css.hover : ""}
+              className={css.hover}
               onClick={() => {
                 setShow(false);
               }}>
               About
             </button>
             <button
-              className={isTouched ? css.hover : ""}
+              className={css.hover}
               onClick={() => {
                 setShow(false);
               }}>
               Services
             </button>
             <button
-              className={isTouched ? css.hover : ""}
+              className={css.hover}
               onClick={() => {
                 setShow(false);
               }}>
               Our Work
             </button>
             <button
-              className={isTouched ? css.hover : ""}
+              className={css.hover}
               onClick={() => {
                 setShow(false);
               }}>

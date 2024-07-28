@@ -120,4 +120,9 @@
   .linksContainer > .hover:hover {
     background-color: #da722c;
   }
+  @media (hover: hover) {
+    .hover:hover {
+      background-color: #da722c;
+    }
+  }
 }
