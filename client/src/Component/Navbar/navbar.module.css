@@ -74,7 +74,7 @@
     height: 100%;
     flex-direction: column;
   }
-  .linksContainer > button:hover {
+  .linksContainer > nav > button :hover {
     background: #da722c;
   }
   .burgerButton {
@@ -83,5 +83,33 @@
     width: 40px;
     height: 40px;
     padding: 13.33px 6.67px 13.33px 6.67px;
+  }
+  .linksContainer > button {
+    padding: 12px 20px 12px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .linksContainer > nav > button {
+    padding: 12px 20px 12px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: inherit;
+    color: white;
+    border: none;
+    outline: none;
+    width: 121px;
+  }
+  .linksContainer > .closebutton {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 46.96px;
+    position: relative;
+    top: -20px;
+    right: -100px;
   }
 }
