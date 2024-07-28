@@ -140,4 +140,7 @@
     line-height: 28px;
     text-align: center;
   }
+  .inputContainer > input {
+    width: 100%;
+  }
 }
