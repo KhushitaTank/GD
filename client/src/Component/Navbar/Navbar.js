@@ -7,19 +7,6 @@ function Navbar() {
   const [show, setShow] = useState(false);
   const [isTouched, setIsTouched] = useState(false);
 
-  useEffect(() => {
-    const handleTouchStart = () => setIsTouched(true);
-    const handleTouchEnd = () => setIsTouched(false);
-
-    document.addEventListener("touchstart", handleTouchStart);
-    document.addEventListener("touchend", handleTouchEnd);
-
-    return () => {
-      document.removeEventListener("touchstart", handleTouchStart);
-      document.removeEventListener("touchend", handleTouchEnd);
-    };
-  }, []);
-
   return (
     <div className={css.container}>
       <h1>GD.</h1>
